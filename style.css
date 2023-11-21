@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+}
+
+.mainimage {
+    height: auto;
+    width: 400px;
+    
+}
+
+* {
+    color:white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#list {
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
