@@ -1,11 +1,25 @@
 html {
     background-color: black;
+    box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .mainimage {
     height: auto;
     width: 400px;
-    
+    margin: 0 auto;
+    padding: 20px;
 }
 
 * {
@@ -16,12 +30,23 @@ html {
 
 h1 {
     font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
 }
 
 #list {
     border-style: solid;
     border-color: white;
     padding: 5px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
 }
 
 button {
@@ -30,4 +55,29 @@ button {
     border-radius: 20px;
     border-color: white;
     
+}
+
+#index-listing {
+    display: inline;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+#index-listing-parent {
+    display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#intro {
+    padding: 5px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
 }
